@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<section>
+
+    <div id="receipt">
+        <div id="receipt-header" class="rec-header">OLD NAVY - 05955<br/>49 WEST HILLSDALE BLVD.<br/>SAN MATEO CA 94403<br/>Tel.(650) 638-0199</div>
+        <table id="transaction-details-table" class='receipt-table'>
+            <tr>
+                <td id="transaction-date">11/13/2017</td>
+                <td id="transaction-time" class='col-right'>10:11:42 AM</td>
+            </tr>
+
+            <tr>
+                <td id="transaction-number">Trans.: 2031</td>
+                <td id="store-number" class='col-right'>Store: 05955</td>
+            </tr>
+            <tr>
+                <td id="register-number" colspan="2">Reg.: 050</td>
+            </tr>
+            <tr>
+                <td id="cashier-number">Cashier: 1580344</td>
+                <td id="valid-number" class='col-right'>Valid No: 6892</td>
+            </tr>
+
+            <tr>
+
+            </tr>
+            <tr>
+                <td id="transaction-type" class="col-center" colspan="2">SALE</td>
+
+
+            </tr>
+
+            <tr>
+                <td id="transaction-barcode-id" class="col-center" colspan="2">
+                    <img id="receipt-txn-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAU4AAAA+AQAAAABsfc+xAAAARklEQVR42u3KsQnAMAwEQIFbQVYxpP3hDWoDWuXhWxVZwQP81RdJDBVdWs+X4C5WLyQgVbfqjRE5ecLV1dXV1dXV1dX1vv7Au/sqf4l//AAAAABJRU5ErkJg"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td id="transaction-id" class="col-center" colspan="2">059550502031201609066892</td>
+            </tr>
+
+        </table>
+
+        <!-- Employee id -->
+
+
+        <!-- end of employee id -->
+
+        <!-- Product Details -->
+        <table id='product-details-table' class='receipt-table'>
+            <tbody>
+            <tr>
+                <td class="col-left"  id="product-description-0" >Boys College Team Graphic Tees</td>
+                <td class='col-right'
+                    id="product-final-price-0">35.17 T</td>
+            </tr>
+
+            <tr class="receipt-indented-row">
+                <!-- Sales Qty-->
+                <!-- <td th:attr="id='sku-number-'+${i.index}">{{ receipt.isGiftCardIssue(product) ? '' : receipt.formatProductSku(product)}}</td> -->
+                <td id="sku-number-0">612346-002-0040</td>
+                <td class='col-right' id="quantity-price-0">1 @ 35.00</td>
+            </tr>
+
+            <!-- Giftcard section -->
+
+
+
+
+
+
+
+            <!-- end of Giftcard section -->
+            <!--  start promo -->
+
+            <!-- End promo -->
+
+            <!-- Start Discount -->
+            <tr class="receipt-indented-row">
+                <td id="discount-hardcoded-0-0">FNF2015, 30% Off</td>
+                <td class='col-right' id="discount-value-0-0">-15.08</td>
+            </tr>
+
+
+            <!-- end discount -->
+
+            <tr>
+                <td class="line-space">&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+        <!--  Tax  -->
+        <table id='charge-details-table'
+               class='receipt-table charge-details-table'>
+            <tr>
+                <td>Total Discount</td>
+                <td id="total-discount" class='store-discount-total col-right'>- 15.08</td>
+            </tr>
+            <tr>
+                <td class="line-space">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Subtotal</td>
+                <td id="sub-total" class='col-right'>35.17</td>
+            </tr>
+
+
+
+            <tr class="product-details">
+                <td>T1 Taxable Amount</td>
+                <td id="taxable-amt" class="col-right">35.17</td>
+            </tr>
+            <tr class="product-details">
+                <td id="tax-rate">T1 (8.75%) Tax</td>
+                <td id="receipt-tax-total" class='col-right'>1.92</td>
+            </tr>
+            <tr>
+                <td>Total Tax</td>
+                <td id="total-tax" class="col-right">1.92</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td id="total" class="col-right">37.09</td>
+            </tr>
+        </table>
+
+
+        <!-- End of Tax -->
+        <!-- payments -->
+        <div>
+            <div>
+                <table class='receipt-table' id="card-details-table-0">
+                    <tr>
+                        <td id="card-brand-captureType-0">MRC</td>
+                        <td class="col-right"
+                            id="receipt-card-amt-0" >21.99</td>
+                    </tr>
+
+                </table>
+
+                <table id="auth-details-table0">
+
+
+                    <tr class="receipt-indented-row">
+                        <td>Account:</td>
+                        <td class="col-right"
+                            id="account-0">XXXXXXXXXXXX0119</td>
+                    </tr>
+
+                    <tr class="receipt-indented-row">
+                        <td>Auth:</td>
+                        <td class="col-right"
+                            id="authcode-status-0">AUTH 083414 (A)</td>
+                    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </table>
+                <div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- end of payments -->
+        <table id='tender-details-table' class='receipt-table'>
+            <tr>
+                <td>Total Tender</td>
+                <td id="tender-receipt-total" class="col-right"><p >21.99</p></td>
+            </tr>
+
+
+
+        </table>
+
+        <div id="receipt-footer" class="rec-footer">
+            <div>my footer</div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

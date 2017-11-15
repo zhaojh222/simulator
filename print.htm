@@ -1,0 +1,420 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="application/x-jpg; charset=UTF-8" />
+<style type="text/css" scoped="scoped">
+#receipt {
+	width: 505px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.employee-number {
+	text-align: left;
+	padding: 20px 0px 0px 2px;
+}
+
+.duplicate-message {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.receipt-table {
+	margin-top: 20px;
+}
+
+table {
+	width: 100%;
+}
+
+table td {
+	font-size: 20px;
+}
+
+.receipt-table td.line-space {
+	font-size: 15px;
+	line-height: 15px;
+}
+
+.charge-details-table {
+	margin-top: 0px;
+}
+
+.col-left {
+	text-align: left;
+	max-width: 302px;
+}
+
+.col-right {
+	text-align: right;
+}
+
+.small-left-margin {
+	margin-left: 18px;
+}
+
+.fixed-to-left {
+	margin-left: -98px;
+}
+
+.col-center {
+	text-align: center;
+}
+
+.align-top {
+	vertical-align: top;
+}
+
+.rec-header {
+	text-align: center;
+	font-size: 20px;
+}
+
+.rec-footer {
+	text-align: center;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.rec-disclaimer {
+	text-align: center;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.store-disclaimer p {
+	text-align: justify;
+}
+
+.receipt-indented-row td {
+	padding: 0px 36px 0px 24px;
+}
+
+.receipt-indented-row-giftcardissue td {
+	padding: 0px 6px 0px 4px;
+}
+
+.card-details td {
+	padding: 0px 8px 0px 48px;
+}
+
+.store-discount-total {
+	padding-right: 36px;
+}
+
+.auth-details td {
+	padding: 0px 0px 8px 72px;
+}
+
+.auth-details td:last-child {
+	padding: 0px 48px 0px 0px;
+	width: 185px;
+}
+
+.barcode.code128 {
+	float: left;
+	height: 100%;
+	min-height: 10px;
+}
+
+.barcode.code128>div.b {
+	background: none repeat scroll 0 0 #000000;
+	float: left;
+	height: 100%;
+}
+
+.barcode.code128>div.w {
+	background: none repeat scroll 0 0 #FFFFFF;
+	float: left;
+	height: 100%;
+}
+
+.barcode.code128 .w20 {
+	width: 20px;
+}
+
+.barcode.code128 .w1 {
+	width: 1px;
+}
+
+.barcode.code128 .w2 {
+	width: 2px;
+}
+
+.barcode.code128 .w3 {
+	width: 3px;
+}
+
+.barcode.code128 .w4 {
+	width: 4px;
+}
+
+.barcode.code128 .w5 {
+	width: 5px;
+}
+
+.barcode.code128 .w6 {
+	width: 6px;
+}
+
+.barcode.code128 .w7 {
+	width: 7px;
+}
+
+.barcode.code128 .w8 {
+	width: 8px;
+}
+
+.barcode.code128 .w9 {
+	width: 9px;
+}
+
+.barcode.code128 .w10 {
+	width: 10px;
+}
+
+.barcode.code128 .b1 {
+	width: 1px;
+}
+
+.barcode.code128 .b2 {
+	width: 2px;
+}
+
+.barcode.code128 .b3 {
+	width: 3px;
+}
+
+.barcode.code128 .b4 {
+	width: 4px;
+}
+
+.barcode.code128 .b5 {
+	width: 5px;
+}
+
+.barcode.code128 .b6 {
+	width: 6px;
+}
+
+.barcode.code128 .b7 {
+	width: 7px;
+}
+
+.barcode.code128 .b8 {
+	width: 8px;
+}
+
+.barcode.code128 .b9 {
+	width: 9px;
+}
+
+.barcode.code128 .b10 {
+	width: 10px;
+}
+
+.barcode_height {
+	height: 64px;
+	text-align: center;
+	padding-left: 64px;
+}
+</style>
+
+</head>
+<body>
+	<section>
+
+		<div id="receipt">
+			<div id="receipt-header" class="rec-header">OLD NAVY - 05955<br/>49 WEST HILLSDALE BLVD.<br/>SAN MATEO CA 94403<br/>Tel.(650) 638-0199</div>
+			<table id="transaction-details-table" class='receipt-table'>
+				<tr>
+					<td id="transaction-date">11/13/2017</td>
+					<td id="transaction-time" class='col-right'>10:11:42 AM</td>
+				</tr>
+
+				<tr>
+					<td id="transaction-number">Trans.: 2031</td>
+					<td id="store-number" class='col-right'>Store: 05955</td>
+				</tr>
+				<tr>
+					<td id="register-number" colspan="2">Reg.: 050</td>
+				</tr>
+				<tr>
+					<td id="cashier-number">Cashier: 1580344</td>
+					<td id="valid-number" class='col-right'>Valid No: 6892</td>
+				</tr>
+				
+				<tr>
+					
+				</tr>
+				<tr>
+					<td id="transaction-type" class="col-center" colspan="2">SALE</td>
+					
+					
+				</tr>
+
+				<tr>
+					<td id="transaction-barcode-id" class="col-center" colspan="2">
+						<img id="receipt-txn-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAU4AAAA+AQAAAABsfc+xAAAARklEQVR42u3KsQnAMAwEQIFbQVYxpP3hDWoDWuXhWxVZwQP81RdJDBVdWs+X4C5WLyQgVbfqjRE5ecLV1dXV1dXV1dX1vv7Au/sqf4l//AAAAABJRU5ErkJg"/>
+					</td>
+				</tr>
+
+				<tr>
+					<td id="transaction-id" class="col-center" colspan="2">059550502031201609066892</td>
+				</tr>
+				
+			</table>
+
+			<!-- Employee id -->
+			 
+			
+			<!-- end of employee id -->
+			
+			<!-- Product Details -->
+			<table id='product-details-table' class='receipt-table'>
+				<tbody>
+					<tr>
+						<td class="col-left"  id="product-description-0" >Boys College Team Graphic Tees</td>
+						<td class='col-right'
+								id="product-final-price-0">35.17 T</td>
+					</tr>
+
+					 <tr class="receipt-indented-row">
+						 <!-- Sales Qty-->
+		                <!-- <td th:attr="id='sku-number-'+${i.index}">{{ receipt.isGiftCardIssue(product) ? '' : receipt.formatProductSku(product)}}</td> -->
+		                 <td id="sku-number-0">612346-002-0040</td>
+		                <td class='col-right' id="quantity-price-0">1 @ 35.00</td>
+		            </tr>
+
+					<!-- Giftcard section -->
+
+
+					
+					
+					
+					
+					
+					<!-- end of Giftcard section -->
+					<!--  start promo -->
+				    
+					<!-- End promo -->
+
+					<!-- Start Discount -->
+					<tr class="receipt-indented-row">
+						<td id="discount-hardcoded-0-0">FNF2015, 30% Off</td>
+						<td class='col-right' id="discount-value-0-0">-15.08</td>
+					</tr>
+
+					
+					<!-- end discount -->
+
+					<tr>
+						<td class="line-space">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+				<!--  Tax  -->
+			<table id='charge-details-table'
+				class='receipt-table charge-details-table'>
+			  <tr>
+                <td>Total Discount</td>
+                <td id="total-discount" class='store-discount-total col-right'>- 15.08</td>
+            </tr>
+            <tr>
+                <td class="line-space">&nbsp;</td>
+            </tr>
+				<tr>
+					<td>Subtotal</td>
+					<td id="sub-total" class='col-right'>35.17</td>
+				</tr>
+
+			
+
+			<tr class="product-details">
+                <td>T1 Taxable Amount</td>
+                <td id="taxable-amt" class="col-right">35.17</td> 
+            </tr>
+            <tr class="product-details">
+                <td id="tax-rate">T1 (8.75%) Tax</td>
+                <td id="receipt-tax-total" class='col-right'>1.92</td>
+            </tr>
+            <tr>
+                <td>Total Tax</td>
+                <td id="total-tax" class="col-right">1.92</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td id="total" class="col-right">37.09</td>
+            </tr>
+			</table>
+
+			
+			<!-- End of Tax -->
+				<!-- payments -->
+			<div>
+				<div>
+					<table class='receipt-table' id="card-details-table-0">
+						<tr>
+							<td id="card-brand-captureType-0">MRC</td>
+							<td class="col-right"
+								id="receipt-card-amt-0" >21.99</td>
+						</tr>
+						
+					</table>
+
+					<table id="auth-details-table0">
+						
+
+						<tr class="receipt-indented-row">
+							<td>Account:</td>
+							<td class="col-right"
+									id="account-0">XXXXXXXXXXXX0119</td>
+						</tr>
+
+						<tr class="receipt-indented-row">
+							<td>Auth:</td>
+							<td class="col-right"
+								id="authcode-status-0">AUTH 083414 (A)</td>
+						</tr>
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+					</table>
+					<div>
+						
+						
+					</div>
+				</div>
+			</div>
+
+	<!-- end of payments -->
+	<table id='tender-details-table' class='receipt-table'>
+				<tr>
+					<td>Total Tender</td>
+					<td id="tender-receipt-total" class="col-right"><p >21.99</p></td>
+				</tr>
+
+				
+
+	</table>
+			
+			<div id="receipt-footer" class="rec-footer">
+				<div>my footer</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
